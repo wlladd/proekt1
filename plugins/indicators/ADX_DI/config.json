@@ -1,0 +1,10 @@
+{
+  "indicator": "ADX_DI",
+  "parameters": {
+    "timeperiod": {
+      "type": "int",
+      "default": 14
+    }
+  },
+  "description": "Расчёт +DI и -DI, определение их роста/падения, отношения друг к другу и первой смены направления."
+}

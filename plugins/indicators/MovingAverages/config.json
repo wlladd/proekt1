@@ -1,0 +1,15 @@
+{
+  "indicator": "MovingAverages",
+  "parameters": {
+    "ma_type": {
+      "type": "select",
+      "options": ["SMA", "EMA"],
+      "default": "SMA"
+    },
+    "periods": {
+      "type": "list_int",
+      "default": [14, 50, 100]
+    }
+  },
+  "description": "Набор скользящих средних. Для каждой: +1, если Close > MA, иначе -1."
+}

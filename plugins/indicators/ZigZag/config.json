@@ -1,0 +1,10 @@
+{
+  "indicator": "ZigZag",
+  "parameters": {
+    "threshold": {
+      "type": "float",
+      "default": 0.05
+    }
+  },
+  "description": "ZigZag: записывает закрытый минимум/максимум до появления следующего экстремума. threshold в виде доли (0.05 = 5%)."
+}

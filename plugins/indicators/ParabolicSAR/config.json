@@ -1,0 +1,14 @@
+{
+  "indicator": "ParabolicSAR",
+  "parameters": {
+    "af_step": {
+      "type": "float",
+      "default": 0.02
+    },
+    "af_max": {
+      "type": "float",
+      "default": 0.2
+    }
+  },
+  "description": "Параболик SAR: находим позицию (выше/ниже цены) на исходном и на старшем таймфрейме. "
+}

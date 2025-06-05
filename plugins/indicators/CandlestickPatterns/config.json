@@ -1,0 +1,10 @@
+{
+  "indicator": "CandlestickPatterns",
+  "parameters": {
+    "patterns": {
+      "type": "list_str",
+      "default": ["CDL_DOJI", "CDL_HAMMER", "CDL_ENGULFING"]
+    }
+  },
+  "description": "Свечные паттерны. List of TA-Lib pattern names. На выходе +1/−1/0."
+}
