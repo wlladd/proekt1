@@ -32,7 +32,6 @@ rpds-py==0.25.1
 six==1.17.0
 smmap==5.0.2
 streamlit==1.45.1
-ta-lib-everywhere @ file:///ta_lib_everywhere-0.6.6-cp311-cp311-win_amd64.whl#sha256=dcbd07540a4ad1b813a5bf9571448296851d4879eb45bc6ec365b126da08836c
 tenacity==9.1.2
 toml==0.10.2
 tornado==6.5.1
